@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Editor</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        rel="stylesheet">
+
+  <link href="../styles.css" rel="stylesheet"/>
+
+  <link href="course-editor.style.client.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="container">
+      <nav class="navbar navbar-dark bg-primary">
+        <a class="btn btn-primary float-left wbdv-course-editor wbdv-close"
+           href="../index.html">x</a>
+        <span class="navbar-brand mb-0 h1 wbdv-course-title">WebDev Course Editor</span>
+      </nav>
+      <div class="row">
+        <div class="col-4">
+          <div>
+            <ul class="list-group wbdv-module-list">
+              <li class="list-group-item wbdv-module-item">
+                <a class="text-dark wbdv-module-item" href="#">Module 1</a>
+                <button type="button"
+                        class="close wbdv-module-item-delete-btn"
+                        aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button></li>
+              <li class="list-group-item wbdv-module-item">
+                <a class="text-dark wbdv-module-item" href="#">Module 2</a>
+                <button type="button"
+                        class="close wbdv-module-item-delete-btn"
+                        aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button></li>
+              <li class="list-group-item active wbdv-module-item">
+                <a class="text-dark wbdv-module-item" href="#">Module 3</a>
+                <button type="button"
+                        class="close wbdv-module-item-delete-btn"
+                        aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button></li>
+              <li class="list-group-item wbdv-module-item">
+                <a class="text-dark wbdv-module-item" href="#">Module 4</a>
+                <button type="button"
+                        class="close wbdv-module-item-delete-btn"
+                        aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button></li>
+              <li class="list-group-item wbdv-module-item">
+                <a class="text-dark wbdv-module-item" href="#">Module 5</a>
+                <button type="button"
+                        class="close wbdv-module-item-delete-btn"
+                        aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button></li>
+              <li class="list-group-item wbdv-module-item">
+                <a class="text-dark wbdv-module-item" href="#">Module 6</a>
+                <button type="button"
+                        class="close wbdv-module-item-delete-btn"
+                        aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                </li>
+            </ul>
+            <button class="btn btn-outline-secondary float-right
+            wbdv-module-item-add-btn">+</button>
+
+          </div>
+        </div>
+        <div class="col-8">
+          <div>
+
+
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active wbdv-lesson-tabs" href="#">Lesson 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wbdv-lesson-tabs" href="#">Lesson 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wbdv-lesson-tabs" href="#">Lesson 3</a>
+            </li>
+            <li class="nav-item">
+            <button class="btn btn-link float-right wbdv-lesson-add-btn">
+              +
+            </button>
+            </li>
+          </ul>
+
+          </div>
+          <br/>
+
+          <div>
+
+
+            <ul class="nav nav-pills nav-justified wbdv-topic-pill-list">
+              <li class="nav-item wbdv-topic-pill">
+                <a class="nav-link active wbdv-topic-add-btn" href="#">Topic 1</a>
+              </li>
+              <li class="nav-item wbdv-topic-pill">
+                <a class="nav-link wbdv-topic-add-btn" href="#">Topic 2</a>
+              </li>
+              <li class="nav-item wbdv-topic-pill">
+                <a class="nav-link wbdv-topic-add-btn" href="#">Topic 3</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-link wbdv-topic-add-btn">
+                  +
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          </br>
+          <div>
+            <h2>Widgets</h2>
+
+            <ul>
+              <li>Widget 1</li>
+              <li>Widget 2</li>
+              <li>Widget 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+</body>
+</html>
